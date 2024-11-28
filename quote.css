@@ -16,7 +16,7 @@
 .quote figure {
     margin: 0px;
     padding-left: 24px;
-    border-left: 2px solid #BFEFF1;
+    border-left: 2px solid #2ECC71;
     width: 449px;
     display: flex;
     flex-direction: column;
@@ -25,14 +25,14 @@
 .quote blockquote {
     width: 100%;
     margin: 0;
-    font-family: 'Orbitron';
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 140%;
 }
 .quote figcaption {
-    font-family: 'Jura';
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
