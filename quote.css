@@ -1,0 +1,85 @@
+.quote{
+    padding: 0px 64px;
+    margin: auto;
+    margin-bottom: 322px;
+    height: 184px;
+    width: 749px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.quote img {
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 94px;
+}
+.quote figure {
+    margin: 0px;
+    padding-left: 24px;
+    border-left: 2px solid #BFEFF1;
+    width: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quote blockquote {
+    width: 100%;
+    margin: 0;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+.quote figcaption {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+@media(max-width: 375px) {
+.quote{
+    display: inline-flex;
+    padding: 0px 16px;
+    margin: auto;
+    margin-bottom: 168px;
+    width: 343px;
+    height: 148px;
+}
+.quote img {
+    height: 95px;
+    border-radius: 50%;
+    margin: 0;
+}
+.quote figure {
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+}
+.quote blockquote {
+    margin: 0;
+    padding-left: 16px;
+    border-left: 2px solid #BFEFF1;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    width: auto;
+}
+.quote figcaption {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+.elon {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+}

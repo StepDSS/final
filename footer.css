@@ -1,0 +1,185 @@
+.booking {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    height: 593px;
+}
+.bookyour {
+    color: #F5F5F5;
+    text-align: center;
+    margin: 64px 0px 48px 0px;
+    height: 54px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 125%;
+}
+.booking form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.input {
+    width: 330px;
+    height: 48px;
+    margin: 0;
+    margin-bottom: 48px;
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid #CCCCCC;
+    background-color: #F5F5F5;
+    color: #333333;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+input:required:invalid {
+    background-image: url(Images/No.svg);
+    background-position: right;
+    background-repeat: no-repeat;}
+input:required:valid {
+    background-image: url(Images/Yes.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    }
+input:focus {
+    outline: none;
+}
+.submit {
+    width: 100%;
+    height: 53px;
+    background: #091E2E;
+    border-radius: 8px;
+    margin: 16px 0px 40px 0px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    display: block;
+    color: #D5F4F6;
+    border: none;
+}
+.submit:hover {
+    background: #36495F;
+}
+::placeholder {
+    color: #000000;
+    opacity: 1;
+} 
+.click {
+    width: 330px;
+    display: block;
+    color: #091E2E;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 68px;
+  }
+.click a:link {
+    color: #091E2E;
+}
+.click a:visited {
+    color: #091E2E;
+}
+.footerlinks {
+    padding-left: 64px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: inline;
+}
+.footerlinks img {
+    width: 24px;
+    height: 24px;
+}
+.footerlinks a {
+    color: #f8f8f8;
+    margin-left: 24px;
+}
+.copyright {
+    padding-right: 64px;
+    margin: 0;
+    text-align: end;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+.footerend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* @media (max-width: 375px) {
+.booking {
+    background-color: #D5F4F6;
+    display: flex;
+    flex-direction: column;
+    height: 411px;
+}
+.bookyour {
+    color: #091E2E;
+    text-align: center;
+    margin: 40px 78px 32px 78px;
+    height: 31px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 140%;
+}
+.booking form {
+    display: block;
+    margin: 0px 79px;
+}
+.input {
+    width: 218px;
+    height: 48px;
+    margin-bottom: 24px;
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid #091E2E;
+    background-color: #D5F4F6;
+    color: #091E2E;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+.submit {
+    width: 100%;
+    height: 48px;
+    background: #091E2E;
+    border-radius: 8px;
+    margin: 8px 0px 32px 0px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+    color: #D5F4F6;
+    border: none;
+}
+::placeholder {
+    color: #000000;
+    opacity: 1;
+} 
+.click {
+    display: block;
+    color: #091E2E;
+    padding: 0px 79px;
+    margin: 0px 0px 32px 0px;
+    width: auto;
+  }
+.click a:link {
+    color: #091E2E;
+}
+.click a:visited {
+    color: #091E2E;
+}
+}
